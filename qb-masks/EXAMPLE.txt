@@ -1,0 +1,152 @@
+
+Instal guide
+
+Paste this in the qb-core/shared/itmes
+
+['terror']  						  = {['name'] = 'terror', 				    ['label'] = 'Balaclava',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'terror.png',  			['unique'] = false,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['hockeymask']  						= {['name'] = 'hockeymask', 				  ['label'] = 'Hockeymask',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'hockeymask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['blackbandana']  						= {['name'] = 'blackbandana', 				  ['label'] = 'Blackbandana',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'blackbandana.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['tshirtmask']  						= {['name'] = 'tshirtmask', 				  ['label'] = 'Tshirtmask',  		          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'tshirtmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['scarecrowmask']  						= {['name'] = 'scarecrowmask', 				  ['label'] = 'Scarecrowmask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'scarecrowmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['scarf']  						= {['name'] = 'scarf', 				  ['label'] = 'scarf',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'scarf.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['monkeymask']  						= {['name'] = 'monkeymask', 				  ['label'] = 'Monkeymask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'monkeymask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+['skullmask']  						= {['name'] = 'skullmask', 				  ['label'] = 'Skullmask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'skullmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+
+
+Paste the images in 
+
+qb-inventory/html/images
+
+
+paste this in to qb-shops/config.lua 
+
+    ["masker"] = {
+        [1] = {
+            name = "terror",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "hockeymask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "blackbandana",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "tshirtmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+        [5] = {
+            name = "scarecrowmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 5,
+        },
+        [6] = {
+            name = "scarf",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 6,
+        },
+        [7] = {
+            name = "monkeymask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 7,
+        },
+        [8] = {
+            name = "skullmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 8,
+        },
+    },
+
+en this all the way below in qb-shops/config.lua
+
+    ["masker"] = {
+        ["label"] = "Maskerwinkel",
+        ["coords"] = {
+            [1] = vector4(-1334.89, -1277.6, 4.96, 105.15)
+        },
+        ["ped"] = {
+            ["model"] = 'S_M_M_StrVend_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["masker"],
+        ["showblip"] = true,
+        ["blipsprite"] = 84
+    },
+
+Example to adding more masks 
+
+
+In qb-core/shared/items.lua add this
+['']  					= {['name'] = '', 			['label'] = '',		['weight'] = 1,  		['type'] = 'item',  	['image'] = 'mask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
+
+in qb-masks/client.lua add this
+
+
+RegisterNetEvent('masks:client:*event_name_here*', function(itemName)
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 15) --- 7 is for neck accessories(teef) the 10 is for number chain and 15 is for number texture
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    else
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedComponentVariation(ped, 7, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+
+in qb-masks/server.lua add this
+QBCore.Functions.CreateUseableItem("*item_name_here*", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:*name_of_event_here*", src, item.name)
+end)
