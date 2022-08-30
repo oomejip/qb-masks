@@ -122,7 +122,7 @@ RegisterNetEvent('masks:client:*event_name_here*', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 1, 54, 0) --- 1 is for the mask Do not touch the 54 is for number of the mask and 0 is for number texture
+            SetPedComponentVariation(ped, 1, 54, 0) --- [1 is for the mask Do not touch] the 54 is for number of the mask and 0 is for number texture
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
