@@ -1,5 +1,5 @@
 # qb-masks
-Usable masks use items 
+Usable mask item 
 
 i change this script from chains to masks big respect to DoritoXheaD#3240. i only chance to masks enjoy it 
 
