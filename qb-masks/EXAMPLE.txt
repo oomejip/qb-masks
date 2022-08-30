@@ -115,27 +115,27 @@ in qb-masks/client.lua add this
 RegisterNetEvent('masks:client:*event_name_here*', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("chain_misc", "Putting on chain..", 3000, false, true, {
+        QBCore.Functions.Progressbar("chain_misc", "Putting on mask..", 3000, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 10, GetPedTextureVariation(ped, 7), 15) --- 7 is for neck accessories(teef) the 10 is for number chain and 15 is for number texture
+            SetPedComponentVariation(ped, 1, 54, 0) --- 1 is for the mask Do not touch the 54 is for number of the mask and 0 is for number texture
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("chain_misc", "Taking off chain..", 3000, false, true, {
+        QBCore.Functions.Progressbar("chain_misc", "Taking off mask..", 3000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedComponentVariation(ped, 7, 0)
+            SetPedComponentVariation(ped, 1, 0, 0)
             wearing = false
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
