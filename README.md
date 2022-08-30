@@ -1,7 +1,7 @@
 # qb-masks
 Usable masks items 
 
-Originally script doritohead : https://github.com/doritohead/qb-chains
+Originally script from doritohead : https://github.com/doritohead/qb-chains
 
 i change this script from chains to masks 
 
