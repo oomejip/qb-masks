@@ -1,7 +1,9 @@
 # qb-masks
-Usable mask item 
+Usable masks items 
 
-i change this script from chains to masks big respect to DoritoXheaD#3240. i only chance to masks enjoy it 
+Originally doritohead : https://github.com/doritohead/qb-chains
+
+i change this script from chains to masks 
 
 Preview: https://streamable.com/7j4p6o
 
