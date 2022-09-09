@@ -8,7 +8,7 @@ Inspiration from : https://marcinhu.tebex.io/package/5279783
  
 Originally script from doritohead : https://github.com/doritohead/qb-chains
  
-i change this script from chains to masks
+# i change this script from chains to masks
  
 
 Preview for now: https://streamable.com/vr7fcf this clip is in dutch i translate it back to ENG
