@@ -3,8 +3,6 @@
 Teaser is already done the files are still the same its comming in a few days 
 
 Usable masks/helmets items for the new Gabz VB Market
-
-Inspiration from : https://marcinhu.tebex.io/package/5279783 
  
 Originally script from doritohead : https://github.com/doritohead/qb-chains
  
