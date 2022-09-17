@@ -3,15 +3,37 @@ Instal guide
 
 Paste this in the qb-core/shared/itmes
 
-['terror']  						  = {['name'] = 'terror', 				    ['label'] = 'Balaclava',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'terror.png',  			['unique'] = false,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['hockeymask']  						= {['name'] = 'hockeymask', 				  ['label'] = 'Hockeymask',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'hockeymask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['blackbandana']  						= {['name'] = 'blackbandana', 				  ['label'] = 'Blackbandana',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'blackbandana.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['tshirtmask']  						= {['name'] = 'tshirtmask', 				  ['label'] = 'Tshirtmask',  		          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'tshirtmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['scarecrowmask']  						= {['name'] = 'scarecrowmask', 				  ['label'] = 'Scarecrowmask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'scarecrowmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['scarf']  						= {['name'] = 'scarf', 				  ['label'] = 'scarf',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'scarf.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['monkeymask']  						= {['name'] = 'monkeymask', 				  ['label'] = 'Monkeymask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'monkeymask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-['skullmask']  						= {['name'] = 'skullmask', 				  ['label'] = 'Skullmask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'skullmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
-
+-------MASK
+['terror']  						  = {['name'] = 'terror', 				    ['label'] = 'Balaclava',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_35.png',  			['unique'] = false,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'balaclava'},
+['hockeymask']  						= {['name'] = 'hockeymask', 				  ['label'] = 'Hockeymask',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_4.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['blackbandana']  						= {['name'] = 'blackbandana', 				  ['label'] = 'Blackbandana',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_51.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['tshirtmask']  						= {['name'] = 'tshirtmask', 				  ['label'] = 'Tshirtmask',  		          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_54.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['scarecrowmask']  						= {['name'] = 'scarecrowmask', 				  ['label'] = 'Scarecrowmask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'scarecrowmask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['scarf']  						= {['name'] = 'scarf', 				  ['label'] = 'scarf',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_115.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['monkeymask']  						= {['name'] = 'monkeymask', 				  ['label'] = 'Monkeymask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'monkeymask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['skullmask']  						= {['name'] = 'skullmask', 				  ['label'] = 'Skullmask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_2.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['terrorwit']  						= {['name'] = 'terrorwit', 				  ['label'] = 'Pig Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_1.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['feest']  						= {['name'] = 'feest', 				  ['label'] = 'PartyMask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_6.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['noselong']  						= {['name'] = 'noselong', 				  ['label'] = 'Long Nose',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_12.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['blauw']  						= {['name'] = 'blauw', 				  ['label'] = 'Blue Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_14.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['skullzwart']  						= {['name'] = 'skullzwart', 				  ['label'] = 'Skull Black Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_15.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['silver']  						= {['name'] = 'silver', 				  ['label'] = 'Silver Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_16.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['zwart1']  						= {['name'] = 'zwart1', 				  ['label'] = 'Full Black Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_28.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['zwart2']  						= {['name'] = 'zwart2', 				  ['label'] = 'Skull Black Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_29.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['please']  						= {['name'] = 'please', 				  ['label'] = 'Please Gold Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_30.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['zak']  						= {['name'] = 'zak', 				  ['label'] = 'Bag Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_49.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['groen']  						= {['name'] = 'groen', 				  ['label'] = 'Green Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_50.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['bandanab']  						= {['name'] = 'bandanab', 				  ['label'] = 'Blue Bandana',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_51(BLAU).png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['bivak1']  						= {['name'] = 'bivak1', 				  ['label'] = 'Balaclava 2',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_53.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['roodc']  						= {['name'] = 'roodc', 				  ['label'] = 'Red Chinese Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_94.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['clown']  						= {['name'] = 'clown', 				  ['label'] = 'Clown Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_95.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['gorilla']  						= {['name'] = 'gorilla', 				  ['label'] = 'Gorilla Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_96.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['paard']  						= {['name'] = 'paard', 				  ['label'] = 'Horse Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_97.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['paardu']  						= {['name'] = 'paardu', 				  ['label'] = 'Uinicorn Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_98.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['skullr']  						= {['name'] = 'skullr', 				  ['label'] = 'No Skin Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_99.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['masker3']  						= {['name'] = 'masker3', 				  ['label'] = 'Face Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_101.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['sok']  						= {['name'] = 'sok', 				  ['label'] = 'Red Sock Mask',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_32.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
+['helm1']  						= {['name'] = 'helm1', 				  ['label'] = 'Black helmet',  	          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'helm1.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
 
 Paste the images in 
 
@@ -85,9 +107,185 @@ paste this in to qb-shops/config.lua
             type = "item",
             slot = 8,
         },
+        [9] = {
+            name = "terrorwit",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 9,
+        },
+        [10] = {
+            name = "feest",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 10,
+        },
+        [11] = {
+            name = "noselong",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 11,
+        },
+        [12] = {
+            name = "blauw",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 12,
+        },
+        [13] = {
+            name = "skullzwart",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 13,
+        },
+        [14] = {
+            name = "silver",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 14,
+        },
+        [15] = {
+            name = "zwart1",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 15,
+        },[16] = {
+            name = "zwart2",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 16,
+        },
+        [17] = {
+            name = "please",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 17,
+        },
+        [18] = {
+            name = "sok",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 18,
+        },
+        [19] = {
+            name = "zak",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 19,
+        },
+        [20] = {
+            name = "groen",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 20,
+        },[21] = {
+            name = "bandanab",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 21,
+        },
+        [22] = {
+            name = "bivak1",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 22,
+        },
+        [23] = {
+            name = "roodc",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 23,
+        },
+        [24] = {
+            name = "clown",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 24,
+        },
+        [25] = {
+            name = "gorilla",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 25,
+        },
+        [26] = {
+            name = "paard",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 26,
+        },
+        [27] = {
+            name = "paardu",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 27,
+        },
+        [28] = {
+            name = "skullr",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 28,
+        },
+        [29] = {
+            name = "masker3",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 29,
+        },
+        [30] = {
+            name = "helm1",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 30,
+        },
     },
 
 en this all the way below in qb-shops/config.lua
+
+-- OLD STORE 
 
     ["masker"] = {
         ["label"] = "Maskerwinkel",
@@ -103,14 +301,31 @@ en this all the way below in qb-shops/config.lua
         ["blipsprite"] = 84
     },
 
+-- VB MARKET MASK SHOP GABZZ 
+
+    ["masker"] = {
+        ["label"] = "Maskerwinkel",
+        ["coords"] = {
+            [1] = vector4(-1198.76, -1515.58, 4.38, 124.93)
+        },
+        ["ped"] = {
+            ["model"] = 'u_m_y_pogo_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["masker"],
+        ["showblip"] = false,
+        ["blipsprite"] = 84
+    },
+
+
 Example to adding more masks 
 
-
 In qb-core/shared/items.lua add this
+
 ['']  					= {['name'] = '', 			['label'] = '',		['weight'] = 1,  		['type'] = 'item',  	['image'] = 'mask.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = ''},
 
-in qb-masks/client.lua add this
 
+in qb-masks/client.lua add this
 
 RegisterNetEvent('masks:client:*event_name_here*', function(itemName)
     if not wearing then
@@ -146,6 +361,48 @@ end)
 
 in qb-masks/server.lua add this
 QBCore.Functions.CreateUseableItem("*item_name_here*", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:*name_of_event_here*", src, item.name)
+end)
+
+----Example to adding more helmet
+
+ 
+RegisterNetEvent('masks:client:*event_name_here*', function(itemName)
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 1, 0) --- [0 is for the helm prop Do not touch] the 1 is for number of the helm and 0 is for number texture
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    else
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Taking helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0) [Do not touch]
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+
+in qb-masks/server.lua add this
+QBCore.Functions.CreateUseableItem("*helm1*", function(source, item)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
     TriggerClientEvent("masks:client:*name_of_event_here*", src, item.name)
