@@ -13,3 +13,7 @@ Preview for now: https://streamable.com/vr7fcf this clip is in dutch i translate
  
 [VB market config for 8 stores comming after this when its done] 
 
+# Dependencies
+
+qb-shops
+qb-inventory
