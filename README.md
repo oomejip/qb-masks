@@ -18,4 +18,5 @@ Preview for now: https://streamable.com/vr7fcf this clip is in dutch i translate
 # Dependencies
 
 • qb-shops
+
 • qb-inventory
