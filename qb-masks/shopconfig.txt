@@ -246,7 +246,7 @@ en this all the way below in qb-shops/config.lua
 -- OLD STORE 
 
     ["masker"] = {
-        ["label"] = "Maskerwinkel",
+        ["label"] = "Mask shop",
         ["coords"] = {
             [1] = vector4(-1334.89, -1277.6, 4.96, 105.15)
         },
@@ -262,7 +262,7 @@ en this all the way below in qb-shops/config.lua
 -- VB MARKET MASK SHOP GABZZ 
 
     ["masker"] = {
-        ["label"] = "Maskerwinkel",
+        ["label"] = "Mask shop",
         ["coords"] = {
             [1] = vector4(-1198.76, -1515.58, 4.38, 124.93)
         },
