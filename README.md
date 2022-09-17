@@ -1,8 +1,7 @@
  ![qb-masks](https://user-images.githubusercontent.com/69800408/190872848-d46e49f9-d683-499f-8d7c-7f870f9b5867.png)
 # qb-masks-helmets
 Usable masks/helmets items for the new Gabz VB Market and normale place
-
-
+More helmets in the future ore add more by your self
 # Originally script
 from doritohead : https://github.com/doritohead/qb-chains
  
