@@ -1,0 +1,277 @@
+paste this in to qb-shops/config.lua 
+
+    ["masker"] = {
+        [1] = {
+            name = "terror",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "hockeymask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "blackbandana",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "tshirtmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 4,
+        },
+        [5] = {
+            name = "scarecrowmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 5,
+        },
+        [6] = {
+            name = "scarf",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 6,
+        },
+        [7] = {
+            name = "monkeymask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 7,
+        },
+        [8] = {
+            name = "skullmask",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 8,
+        },
+        [9] = {
+            name = "terrorwit",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 9,
+        },
+        [10] = {
+            name = "feest",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 10,
+        },
+        [11] = {
+            name = "noselong",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 11,
+        },
+        [12] = {
+            name = "blauw",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 12,
+        },
+        [13] = {
+            name = "skullzwart",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 13,
+        },
+        [14] = {
+            name = "silver",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 14,
+        },
+        [15] = {
+            name = "zwart1",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 15,
+        },[16] = {
+            name = "zwart2",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 16,
+        },
+        [17] = {
+            name = "please",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 17,
+        },
+        [18] = {
+            name = "sok",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 18,
+        },
+        [19] = {
+            name = "zak",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 19,
+        },
+        [20] = {
+            name = "groen",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 20,
+        },[21] = {
+            name = "bandanab",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 21,
+        },
+        [22] = {
+            name = "bivak1",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 22,
+        },
+        [23] = {
+            name = "roodc",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 23,
+        },
+        [24] = {
+            name = "clown",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 24,
+        },
+        [25] = {
+            name = "gorilla",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 25,
+        },
+        [26] = {
+            name = "paard",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 26,
+        },
+        [27] = {
+            name = "paardu",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 27,
+        },
+        [28] = {
+            name = "skullr",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 28,
+        },
+        [29] = {
+            name = "masker3",
+            price = 500,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 29,
+        },
+        [30] = {
+            name = "helm1",
+            price = 1000,
+            amount = 10,
+            info = {},
+            type = "item",
+            slot = 30,
+        },
+    },
+
+en this all the way below in qb-shops/config.lua
+
+-- OLD STORE 
+
+    ["masker"] = {
+        ["label"] = "Maskerwinkel",
+        ["coords"] = {
+            [1] = vector4(-1334.89, -1277.6, 4.96, 105.15)
+        },
+        ["ped"] = {
+            ["model"] = 'S_M_M_StrVend_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["masker"],
+        ["showblip"] = true,
+        ["blipsprite"] = 84
+    },
+
+-- VB MARKET MASK SHOP GABZZ 
+
+    ["masker"] = {
+        ["label"] = "Maskerwinkel",
+        ["coords"] = {
+            [1] = vector4(-1198.76, -1515.58, 4.38, 124.93)
+        },
+        ["ped"] = {
+            ["model"] = 'u_m_y_pogo_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["masker"],
+        ["showblip"] = false,
+        ["blipsprite"] = 84
+    },
+
