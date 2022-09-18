@@ -1,7 +1,7 @@
 Paste this in the qb-core/shared/itmes
 
 -------MASK
-['terror']  						  = {['name'] = 'terror', 				    ['label'] = 'Balaclava',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_35.png',  			['unique'] = false,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'balaclava'},
+['terror']  						  = {['name'] = 'terror', 				    ['label'] = 'Balaclava',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_57.png',  			['unique'] = false,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'balaclava'},
 ['hockeymask']  						= {['name'] = 'hockeymask', 				  ['label'] = 'Hockeymask',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_4.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
 ['blackbandana']  						= {['name'] = 'blackbandana', 				  ['label'] = 'Blackbandana',  	        ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_51.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
 ['tshirtmask']  						= {['name'] = 'tshirtmask', 				  ['label'] = 'Tshirtmask',  		          ['weight'] = 1,  		['type'] = 'item',  	['image'] = 'Clothing_1_54.png',  			['unique'] = true,  	['useable'] = true,  	['shouldClose'] = true,  	['combinable'] = nil, 	['description'] = 'Geeft een klein beetje swag'},
