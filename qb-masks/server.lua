@@ -80,7 +80,7 @@ end)
 QBCore.Functions.CreateUseableItem("zwart2", function(source, item)
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
-    TriggerClientEvent("masks:client:zwart1", src, item.name)
+    TriggerClientEvent("masks:client:zwart2", src, item.name)
 end)
 
 QBCore.Functions.CreateUseableItem("please", function(source, item)
