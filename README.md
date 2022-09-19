@@ -1,11 +1,10 @@
 ![qb-masks](https://user-images.githubusercontent.com/69800408/190875326-a4982512-9778-4fae-8a70-9f02c163a9c0.png)
 ## qb-masks-helmets
-Usable masks/helmets items for the new Gabz VB Market and normale place
-
-More helmets in the future ore add more by your self
+- Usable masks/helmets items for the new Gabz VB Market and normale place
+-More helmets in the future ore add more by your self
 
 ## Originally script
-from doritohead : https://github.com/doritohead/qb-chains
+- from doritohead : https://github.com/doritohead/qb-chains
 - i change this script from chains to masks/helmets
  
 
