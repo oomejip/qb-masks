@@ -4,15 +4,13 @@
 -More helmets in the future ore add more by your self
 
 ## Originally script
-- from doritohead : https://github.com/doritohead/qb-chains
-- i change this script from chains to masks/helmets
+- Doritohead : https://github.com/doritohead/qb-chains
+- I change this script from chains to masks/helmets
  
 
 ## Showcase 
 - https://streamable.com/vr7fcf this clip is in dutch i translate it back to ENG
  
-
-
 ## Dependencies
 
 - [QBCore](https://github.com/qbcore-framework/qb-core)
