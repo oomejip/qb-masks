@@ -6,8 +6,7 @@ More helmets in the future ore add more by your self
 
 ## Originally script
 from doritohead : https://github.com/doritohead/qb-chains
- 
-## i change this script from chains to masks/helmets
+- i change this script from chains to masks/helmets
  
 
 ## Preview 
