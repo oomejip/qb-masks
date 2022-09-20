@@ -6,7 +6,7 @@
 ## Originally script
 - Doritohead : https://github.com/doritohead/qb-chains
 - I change this script from chains to masks/helmets
- 
+- If you have a clothing pack with other helmets then you need to change it
 
 ## Showcase 
 - https://streamable.com/d5w6a5
