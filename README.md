@@ -18,9 +18,9 @@
 - [qb-inventory](https://github.com/qbcore-framework/qb-inventory)
 
 ## V3
--- ADD More helmets
+- ADD More helmets
 ## V2
 - Add The helmets to the script
 - Add alot of masks
 ## V1
--- Simple couple Masks
+- Simple couple Masks
