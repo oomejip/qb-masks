@@ -173,4 +173,46 @@ QBCore.Functions.CreateUseableItem("helm1", function(source, item)
     TriggerClientEvent("masks:client:helm1", src, item.name)
 end)
 
+QBCore.Functions.CreateUseableItem("helm2", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm2", src, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("helm3", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm3", src, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("helm4", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm4", src, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("helm5", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm5", src, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("helm6", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm6", src, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("helm7", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm7", src, item.name)
+end)
+
+QBCore.Functions.CreateUseableItem("helm8", function(source, item)
+    local src = source
+    local Player = QBCore.Functions.GetPlayer(src)
+    TriggerClientEvent("masks:client:helm8", src, item.name)
+end)
+
 
