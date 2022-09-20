@@ -954,4 +954,229 @@ RegisterNetEvent('masks:client:helm1', function(itemName)
     end
 end)
 
+RegisterNetEvent('masks:client:helm2', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 16, 0)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+RegisterNetEvent('masks:client:helm3', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 17, 0)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+RegisterNetEvent('masks:client:helm4', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 50, 1)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+RegisterNetEvent('masks:client:helm5', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 62, 0)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+RegisterNetEvent('masks:client:helm6', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 67, 0)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+RegisterNetEvent('masks:client:helm7', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 88, 0)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
+
+RegisterNetEvent('masks:client:helm8', function(itemName)
+    local ped = PlayerPedId()
+    if not wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet on..", 3000, false, true, {
+        
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 89, 0)
+            wearing = true
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    elseif wearing then
+        TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
+        QBCore.Functions.Progressbar("chain_misc", "Putting helmet off..", 3000, false, true, {
+            disableMovement = false,
+            disableCarMovement = false,
+            disableMouse = false,
+            disableCombat = true,
+        }, {}, {}, {}, function() -- Done
+            SetPedPropIndex(ped, 0, 11, 0)
+            wearing = false
+            
+            TriggerEvent('animations:client:EmoteCommandStart', {"c"})
+        end)
+    end
+end)
+
 
