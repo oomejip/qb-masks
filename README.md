@@ -20,7 +20,7 @@
 ## V3
 - ADD More helmets
 ## V2
-- Add The helmets to the script
+- Add The helmets code to the script
 - Add alot of masks
 ## V1
 - Simple couple Masks
