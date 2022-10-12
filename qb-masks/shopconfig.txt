@@ -120,7 +120,8 @@ paste this in to qb-shops/config.lua
             info = {},
             type = "item",
             slot = 15,
-        },[16] = {
+        },
+        [16] = {
             name = "zwart2",
             price = 500,
             amount = 10,
