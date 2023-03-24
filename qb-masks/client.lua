@@ -1029,7 +1029,7 @@ RegisterNetEvent('masks:client:helm4', function(itemName)
             disableMouse = false,
             disableCombat = true,
         }, {}, {}, {}, function() -- Done
-            SetPedPropIndex(ped, 0, 50, 1)
+            SetPedPropIndex(ped, 0, 50, 0)
             wearing = true
             
             TriggerEvent('animations:client:EmoteCommandStart', {"c"})
